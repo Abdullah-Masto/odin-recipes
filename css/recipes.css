@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: #333;
+}
+body {
+  background-color: antiquewhite;
+}
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+.container {
+  margin: 1rem auto;
+  padding: 0;
+}
+img {
+  width: 90%;
+  display: block;
+  margin: 1rem auto;
+}
+.description {
+  color: var(--text-color);
+  text-align: center;
+  padding: 0.5em;
+  width: 85%;
+  display: block;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
+ul,
+ol {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+li {
+  margin: 0.5rem;
+  color: var(--text-color);
+}
